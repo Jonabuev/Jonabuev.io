@@ -1,0 +1,45 @@
+# 🐍 Python кэш и временные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# 📦 Игнорировать всё в test, кроме папки Scripts/myproject
+test/*
+!test/Scripts/
+test/Scripts/*
+!test/Scripts/myproject/
+
+# ❌ Игнорируем виртуальное окружение
+test/Lib/
+test/Include/
+test/Scripts/activate
+test/Scripts/activate.bat
+
+# 🧠 Исключаем модели и БД
+*.db
+*.sqlite3
+*.pkl
+*.pt
+*.h5
+*.joblib
+
+# 🔒 Настройки окружения
+.env
+
+# 💻 IDE и ОС файлы
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 📦 JS / React build
+node_modules/
+dist/
+build/
+.npm/
+
+# 🚫 Другие потенциально лишние
+*.bak
+*.swp
